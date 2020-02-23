@@ -1,4 +1,5 @@
 {
+  "homepage": "https://iamsomraj.github.io/React-Movie-Database",
   "name": "moviedb",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

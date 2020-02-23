@@ -5,7 +5,7 @@ import Results from './Components/Results/Results';
 import Popup from './Components/Popup';
 
 function App() {
-  let api = 'http://www.omdbapi.com/?apikey=e3fa814';
+  let api = 'https://www.omdbapi.com/?apikey=e3fa814';
 
   const [state, setState] = useState({
     searchQuery: '',
